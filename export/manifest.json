@@ -1,0 +1,3482 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "file": "chassis_tub",
+      "title": "Main structural tub",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print open-side up. 4 perimeters, 30% gyroid.",
+      "volume_mm3": 155387.3,
+      "mass_g": 192.68,
+      "bbox": {
+        "xmin": -100.0,
+        "ymin": -54.004,
+        "zmin": -22.0,
+        "xmax": 100.0,
+        "ymax": 54.004,
+        "zmax": 22.013,
+        "dx": 200.0,
+        "dy": 108.008,
+        "dz": 44.013
+      },
+      "step": "export/step/chassis_tub.step",
+      "stl": "export/stl/chassis_tub.stl"
+    },
+    {
+      "file": "top_deck",
+      "title": "Top deck and arm plinth",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print plinth up. No supports.",
+      "volume_mm3": 63857.2,
+      "mass_g": 79.18,
+      "bbox": {
+        "xmin": -100.0,
+        "ymin": -54.0,
+        "zmin": -1.519,
+        "xmax": 100.0,
+        "ymax": 54.0,
+        "zmax": 4.553,
+        "dx": 200.0,
+        "dy": 108.0,
+        "dz": 6.073
+      },
+      "step": "export/step/top_deck.step",
+      "stl": "export/stl/top_deck.stl"
+    },
+    {
+      "file": "belly_hatch",
+      "title": "Battery service hatch",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print plug down.",
+      "volume_mm3": 17401.0,
+      "mass_g": 21.58,
+      "bbox": {
+        "xmin": -45.0,
+        "ymin": -27.0,
+        "zmin": -1.304,
+        "xmax": 45.0,
+        "ymax": 27.0,
+        "zmax": 3.104,
+        "dx": 90.0,
+        "dy": 54.0,
+        "dz": 4.408
+      },
+      "step": "export/step/belly_hatch.step",
+      "stl": "export/stl/belly_hatch.stl"
+    },
+    {
+      "file": "front_bezel",
+      "title": "Camera and ultrasonic bezel",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print flat.",
+      "volume_mm3": 14800.9,
+      "mass_g": 18.35,
+      "bbox": {
+        "xmin": -1.77,
+        "ymin": -54.0,
+        "zmin": -22.0,
+        "xmax": 1.77,
+        "ymax": 54.0,
+        "zmax": 22.0,
+        "dx": 3.54,
+        "dy": 108.0,
+        "dz": 44.0
+      },
+      "step": "export/step/front_bezel.step",
+      "stl": "export/stl/front_bezel.stl"
+    },
+    {
+      "file": "rear_panel",
+      "title": "Switch, XT30, USB panel",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print flat.",
+      "volume_mm3": 12324.8,
+      "mass_g": 15.28,
+      "bbox": {
+        "xmin": -1.76,
+        "ymin": -50.0,
+        "zmin": -19.0,
+        "xmax": 1.76,
+        "ymax": 50.0,
+        "zmax": 19.0,
+        "dx": 3.52,
+        "dy": 100.0,
+        "dz": 38.0
+      },
+      "step": "export/step/rear_panel.step",
+      "stl": "export/stl/rear_panel.stl"
+    },
+    {
+      "file": "camera_hood",
+      "title": "Sun hood for the lens",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print upright.",
+      "volume_mm3": 2516.7,
+      "mass_g": 3.12,
+      "bbox": {
+        "xmin": -9.015,
+        "ymin": -10.0,
+        "zmin": -7.0,
+        "xmax": 9.0,
+        "ymax": 10.0,
+        "zmax": 7.0,
+        "dx": 18.015,
+        "dy": 20.0,
+        "dz": 14.0
+      },
+      "step": "export/step/camera_hood.step",
+      "stl": "export/stl/camera_hood.stl"
+    },
+    {
+      "file": "hip_cradle_left",
+      "title": "Abduction servo cradle, left",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Print flange down. FL and RL share this part.",
+      "volume_mm3": 24048.7,
+      "mass_g": 29.82,
+      "bbox": {
+        "xmin": -38.0,
+        "ymin": -16.004,
+        "zmin": -23.2,
+        "xmax": 17.0,
+        "ymax": 13.004,
+        "zmax": 23.2,
+        "dx": 55.0,
+        "dy": 29.008,
+        "dz": 46.4
+      },
+      "step": "export/step/hip_cradle_left.step",
+      "stl": "export/stl/hip_cradle_left.stl"
+    },
+    {
+      "file": "hip_cradle_right",
+      "title": "Abduction servo cradle, right",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Mirror of the left cradle. FR and RR.",
+      "volume_mm3": 24048.7,
+      "mass_g": 29.82,
+      "bbox": {
+        "xmin": -38.0,
+        "ymin": -13.004,
+        "zmin": -23.2,
+        "xmax": 17.0,
+        "ymax": 16.004,
+        "zmax": 23.2,
+        "dx": 55.0,
+        "dy": 29.008,
+        "dz": 46.4
+      },
+      "step": "export/step/hip_cradle_right.step",
+      "stl": "export/stl/hip_cradle_right.stl"
+    },
+    {
+      "file": "coxa_left",
+      "title": "Coxa link, left",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Print proximal flange down. Light supports under the arch.",
+      "volume_mm3": 16959.0,
+      "mass_g": 21.03,
+      "bbox": {
+        "xmin": -6.004,
+        "ymin": -13.014,
+        "zmin": -13.014,
+        "xmax": 6.004,
+        "ymax": 64.02,
+        "zmax": 38.0,
+        "dx": 12.008,
+        "dy": 77.035,
+        "dz": 51.014
+      },
+      "step": "export/step/coxa_left.step",
+      "stl": "export/stl/coxa_left.stl"
+    },
+    {
+      "file": "coxa_right",
+      "title": "Coxa link, right",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Mirror of the left coxa.",
+      "volume_mm3": 16959.0,
+      "mass_g": 21.03,
+      "bbox": {
+        "xmin": -6.004,
+        "ymin": -64.02,
+        "zmin": -13.014,
+        "xmax": 6.004,
+        "ymax": 13.014,
+        "zmax": 38.0,
+        "dx": 12.008,
+        "dy": 77.035,
+        "dz": 51.014
+      },
+      "step": "export/step/coxa_right.step",
+      "stl": "export/stl/coxa_right.stl"
+    },
+    {
+      "file": "femur_left",
+      "title": "Femur, left",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Print spar down.",
+      "volume_mm3": 15278.9,
+      "mass_g": 18.95,
+      "bbox": {
+        "xmin": -12.517,
+        "ymin": -17.0,
+        "zmin": -81.52,
+        "xmax": 12.53,
+        "ymax": 0.03,
+        "zmax": 12.522,
+        "dx": 25.047,
+        "dy": 17.03,
+        "dz": 94.042
+      },
+      "step": "export/step/femur_left.step",
+      "stl": "export/stl/femur_left.stl"
+    },
+    {
+      "file": "femur_right",
+      "title": "Femur, right",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Mirror of the left femur.",
+      "volume_mm3": 15278.9,
+      "mass_g": 18.95,
+      "bbox": {
+        "xmin": -12.517,
+        "ymin": -0.03,
+        "zmin": -81.52,
+        "xmax": 12.53,
+        "ymax": 17.0,
+        "zmax": 12.522,
+        "dx": 25.047,
+        "dy": 17.03,
+        "dz": 94.042
+      },
+      "step": "export/step/femur_right.step",
+      "stl": "export/stl/femur_right.stl"
+    },
+    {
+      "file": "tibia_left",
+      "title": "Tibia, left",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Print spar down, tenon up.",
+      "volume_mm3": 15086.9,
+      "mass_g": 18.71,
+      "bbox": {
+        "xmin": -11.53,
+        "ymin": -15.5,
+        "zmin": -98.012,
+        "xmax": 11.536,
+        "ymax": 5.009,
+        "zmax": 11.529,
+        "dx": 23.065,
+        "dy": 20.509,
+        "dz": 109.541
+      },
+      "step": "export/step/tibia_left.step",
+      "stl": "export/stl/tibia_left.stl"
+    },
+    {
+      "file": "tibia_right",
+      "title": "Tibia, right",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Mirror of the left tibia.",
+      "volume_mm3": 15086.9,
+      "mass_g": 18.71,
+      "bbox": {
+        "xmin": -11.53,
+        "ymin": -5.009,
+        "zmin": -98.012,
+        "xmax": 11.536,
+        "ymax": 15.5,
+        "zmax": 11.529,
+        "dx": 23.065,
+        "dy": 20.509,
+        "dz": 109.541
+      },
+      "step": "export/step/tibia_right.step",
+      "stl": "export/stl/tibia_right.stl"
+    },
+    {
+      "file": "foot",
+      "title": "Spherical tread foot",
+      "kind": "printed",
+      "material": "TPU",
+      "qty": 4,
+      "unit_cost_usd": null,
+      "note": "TPU 95A. 3 perimeters, 20% infill. Ball down if the slicer allows.",
+      "volume_mm3": 4732.6,
+      "mass_g": 5.49,
+      "bbox": {
+        "xmin": -11.059,
+        "ymin": -11.096,
+        "zmin": -11.129,
+        "xmax": 11.122,
+        "ymax": 11.096,
+        "zmax": 9.795,
+        "dx": 22.181,
+        "dy": 22.193,
+        "dz": 20.923
+      },
+      "step": "export/step/foot.step",
+      "stl": "export/stl/foot.stl"
+    },
+    {
+      "file": "horn_clamp",
+      "title": "25T clamping horn",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 15,
+      "unit_cost_usd": null,
+      "note": "Print flange down. 100% infill. Ream the bore to 6.1 only if the spline is tight \u2014 bore is modelled 6.1 mm.",
+      "volume_mm3": 2994.9,
+      "mass_g": 3.71,
+      "bbox": {
+        "xmin": -12.0,
+        "ymin": -12.022,
+        "zmin": -0.025,
+        "xmax": 12.029,
+        "ymax": 12.022,
+        "zmax": 14.429,
+        "dx": 24.029,
+        "dy": 24.044,
+        "dz": 14.454
+      },
+      "step": "export/step/horn_clamp.step",
+      "stl": "export/stl/horn_clamp.stl"
+    },
+    {
+      "file": "arm_yaw_housing",
+      "title": "Under-deck yaw clamp",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print ring down.",
+      "volume_mm3": 6382.6,
+      "mass_g": 7.91,
+      "bbox": {
+        "xmin": -22.0,
+        "ymin": -22.04,
+        "zmin": -9.049,
+        "xmax": 22.054,
+        "ymax": 22.04,
+        "zmax": -2.946,
+        "dx": 44.054,
+        "dy": 44.08,
+        "dz": 6.102
+      },
+      "step": "export/step/arm_yaw_housing.step",
+      "stl": "export/stl/arm_yaw_housing.stl"
+    },
+    {
+      "file": "shoulder_bracket",
+      "title": "Shoulder upright",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print base down.",
+      "volume_mm3": 8185.0,
+      "mass_g": 10.15,
+      "bbox": {
+        "xmin": -13.04,
+        "ymin": -14.0,
+        "zmin": -0.071,
+        "xmax": 13.071,
+        "ymax": 13.064,
+        "zmax": 44.061,
+        "dx": 26.111,
+        "dy": 27.064,
+        "dz": 44.132
+      },
+      "step": "export/step/shoulder_bracket.step",
+      "stl": "export/stl/shoulder_bracket.stl"
+    },
+    {
+      "file": "humerus",
+      "title": "Upper arm",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print spar down.",
+      "volume_mm3": 18428.7,
+      "mass_g": 22.85,
+      "bbox": {
+        "xmin": -12.0,
+        "ymin": -17.0,
+        "zmin": -12.028,
+        "xmax": 101.026,
+        "ymax": 0.029,
+        "zmax": 12.028,
+        "dx": 113.026,
+        "dy": 17.029,
+        "dz": 24.055
+      },
+      "step": "export/step/humerus.step",
+      "stl": "export/stl/humerus.stl"
+    },
+    {
+      "file": "forearm",
+      "title": "Forearm",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print spar down.",
+      "volume_mm3": 13691.6,
+      "mass_g": 16.98,
+      "bbox": {
+        "xmin": -11.03,
+        "ymin": -15.5,
+        "zmin": -11.023,
+        "xmax": 93.022,
+        "ymax": 0.03,
+        "zmax": 11.023,
+        "dx": 104.052,
+        "dy": 15.53,
+        "dz": 22.047
+      },
+      "step": "export/step/forearm.step",
+      "stl": "export/stl/forearm.stl"
+    },
+    {
+      "file": "wrist_hub",
+      "title": "Wrist adapter",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print flat.",
+      "volume_mm3": 3484.5,
+      "mass_g": 4.32,
+      "bbox": {
+        "xmin": -9.0,
+        "ymin": -7.003,
+        "zmin": -9.021,
+        "xmax": 18.0,
+        "ymax": 7.003,
+        "zmax": 9.021,
+        "dx": 27.0,
+        "dy": 14.007,
+        "dz": 18.042
+      },
+      "step": "export/step/wrist_hub.step",
+      "stl": "export/stl/wrist_hub.stl"
+    },
+    {
+      "file": "gripper_palm",
+      "title": "Gripper palm",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print pocket up.",
+      "volume_mm3": 16281.7,
+      "mass_g": 20.19,
+      "bbox": {
+        "xmin": 2.0,
+        "ymin": -16.0,
+        "zmin": -7.004,
+        "xmax": 42.0,
+        "ymax": 16.0,
+        "zmax": 7.004,
+        "dx": 40.0,
+        "dy": 32.0,
+        "dz": 14.008
+      },
+      "step": "export/step/gripper_palm.step",
+      "stl": "export/stl/gripper_palm.stl"
+    },
+    {
+      "file": "finger_left",
+      "title": "Gripper finger, left",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print on the outer face.",
+      "volume_mm3": 2782.0,
+      "mass_g": 3.45,
+      "bbox": {
+        "xmin": -4.5,
+        "ymin": -4.511,
+        "zmin": -5.006,
+        "xmax": 36.0,
+        "ymax": 4.511,
+        "zmax": 9.011,
+        "dx": 40.5,
+        "dy": 9.021,
+        "dz": 14.017
+      },
+      "step": "export/step/finger_left.step",
+      "stl": "export/stl/finger_left.stl"
+    },
+    {
+      "file": "finger_right",
+      "title": "Gripper finger, right",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 1,
+      "unit_cost_usd": null,
+      "note": "Print on the outer face.",
+      "volume_mm3": 2782.0,
+      "mass_g": 3.45,
+      "bbox": {
+        "xmin": -4.5,
+        "ymin": -4.511,
+        "zmin": -5.006,
+        "xmax": 36.0,
+        "ymax": 4.511,
+        "zmax": 9.011,
+        "dx": 40.5,
+        "dy": 9.021,
+        "dz": 14.017
+      },
+      "step": "export/step/finger_right.step",
+      "stl": "export/stl/finger_right.stl"
+    },
+    {
+      "file": "gripper_link",
+      "title": "Gripper tie rod",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Print flat. 100% infill.",
+      "volume_mm3": 489.3,
+      "mass_g": 0.61,
+      "bbox": {
+        "xmin": -4.2,
+        "ymin": -4.214,
+        "zmin": -1.6,
+        "xmax": 25.217,
+        "ymax": 4.214,
+        "zmax": 3.217,
+        "dx": 29.417,
+        "dy": 8.428,
+        "dz": 4.817
+      },
+      "step": "export/step/gripper_link.step",
+      "stl": "export/stl/gripper_link.stl"
+    },
+    {
+      "file": "cable_clip",
+      "title": "Cable clip",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 8,
+      "unit_cost_usd": null,
+      "note": "Print flat.",
+      "volume_mm3": 441.6,
+      "mass_g": 0.55,
+      "bbox": {
+        "xmin": -6.0,
+        "ymin": -4.0,
+        "zmin": -3.506,
+        "xmax": 6.0,
+        "ymax": 4.0,
+        "zmax": 3.506,
+        "dx": 12.0,
+        "dy": 8.0,
+        "dz": 7.013
+      },
+      "step": "export/step/cable_clip.step",
+      "stl": "export/stl/cable_clip.stl"
+    },
+    {
+      "file": "battery_strap",
+      "title": "Battery strap",
+      "kind": "printed",
+      "material": "PETG",
+      "qty": 2,
+      "unit_cost_usd": null,
+      "note": "Print flat.",
+      "volume_mm3": 916.4,
+      "mass_g": 1.14,
+      "bbox": {
+        "xmin": -25.0,
+        "ymin": -4.0,
+        "zmin": -1.204,
+        "xmax": 25.0,
+        "ymax": 4.0,
+        "zmax": 1.204,
+        "dx": 50.0,
+        "dy": 8.0,
+        "dz": 2.408
+      },
+      "step": "export/step/battery_strap.step",
+      "stl": "export/stl/battery_strap.stl"
+    },
+    {
+      "file": "servo_ds3225",
+      "title": "Standard digital servo",
+      "kind": "purchased",
+      "material": "DS3225 class",
+      "qty": 15,
+      "unit_cost_usd": 14.5,
+      "note": "IP-rated 25 kg\u00b7cm standard servo, 180\u00b0 or 270\u00b0 programmable. 12 leg + yaw + shoulder + elbow.",
+      "volume_mm3": 30221.1,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -27.0,
+        "ymin": -10.0,
+        "zmin": -36.003,
+        "xmax": 27.0,
+        "ymax": 10.0,
+        "zmax": 8.507,
+        "dx": 54.0,
+        "dy": 20.0,
+        "dz": 44.51
+      },
+      "step": "export/step/servo_ds3225.step",
+      "stl": "export/stl/servo_ds3225.stl"
+    },
+    {
+      "file": "servo_mg90s",
+      "title": "Micro servo",
+      "kind": "purchased",
+      "material": "MG90S class",
+      "qty": 2,
+      "unit_cost_usd": 4.25,
+      "note": "Wrist and gripper.",
+      "volume_mm3": 6577.0,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -11.4,
+        "ymin": -6.1,
+        "zmin": -23.0,
+        "xmax": 11.4,
+        "ymax": 6.1,
+        "zmax": 5.805,
+        "dx": 22.8,
+        "dy": 12.2,
+        "dz": 28.805
+      },
+      "step": "export/step/servo_mg90s.step",
+      "stl": "export/stl/servo_mg90s.stl"
+    },
+    {
+      "file": "battery_3s2200",
+      "title": "Flight pack",
+      "kind": "purchased",
+      "material": "LiPo 3S",
+      "qty": 1,
+      "unit_cost_usd": 24.0,
+      "note": "2200 mAh \u226530C, XT30. Charge outside the robot.",
+      "volume_mm3": 88662.0,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -52.5,
+        "ymin": -17.5,
+        "zmin": -12.0,
+        "xmax": 52.5,
+        "ymax": 17.5,
+        "zmax": 12.3,
+        "dx": 105.0,
+        "dy": 35.0,
+        "dz": 24.3
+      },
+      "step": "export/step/battery_3s2200.step",
+      "stl": "export/stl/battery_3s2200.stl"
+    },
+    {
+      "file": "board_pi_zero2",
+      "title": "Computer",
+      "kind": "purchased",
+      "material": "Pi Zero 2 W",
+      "qty": 1,
+      "unit_cost_usd": 18.0,
+      "note": "Or any 65\u00d730 class SBC. USB gadget for bench bring-up.",
+      "volume_mm3": 4075.2,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -36.0,
+        "ymin": -15.0,
+        "zmin": -0.0,
+        "xmax": 32.5,
+        "ymax": 15.0,
+        "zmax": 7.0,
+        "dx": 68.5,
+        "dy": 30.0,
+        "dz": 7.0
+      },
+      "step": "export/step/board_pi_zero2.step",
+      "stl": "export/stl/board_pi_zero2.stl"
+    },
+    {
+      "file": "board_pca9685",
+      "title": "Servo driver",
+      "kind": "purchased",
+      "material": "PCA9685",
+      "qty": 1,
+      "unit_cost_usd": 6.5,
+      "note": "16-channel servo PWM. Logic 5 V from the UBEC, servos on the pack.",
+      "volume_mm3": 4519.2,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -31.0,
+        "ymin": -12.5,
+        "zmin": -0.0,
+        "xmax": 31.0,
+        "ymax": 12.5,
+        "zmax": 9.0,
+        "dx": 62.0,
+        "dy": 25.0,
+        "dz": 9.0
+      },
+      "step": "export/step/board_pca9685.step",
+      "stl": "export/stl/board_pca9685.stl"
+    },
+    {
+      "file": "ubec_5v",
+      "title": "Regulator",
+      "kind": "purchased",
+      "material": "5V 5A UBEC",
+      "qty": 1,
+      "unit_cost_usd": 8.0,
+      "note": "Logic rail only. Servo current does not pass through it.",
+      "volume_mm3": 10320.0,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -21.5,
+        "ymin": -10.0,
+        "zmin": -6.0,
+        "xmax": 21.5,
+        "ymax": 10.0,
+        "zmax": 6.0,
+        "dx": 43.0,
+        "dy": 20.0,
+        "dz": 12.0
+      },
+      "step": "export/step/ubec_5v.step",
+      "stl": "export/stl/ubec_5v.stl"
+    },
+    {
+      "file": "imu_mpu6050",
+      "title": "IMU",
+      "kind": "purchased",
+      "material": "MPU-6050",
+      "qty": 1,
+      "unit_cost_usd": 3.5,
+      "note": "Mount on the deck centreline, connectors aft.",
+      "volume_mm3": 1008.0,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -10.5,
+        "ymin": -8.0,
+        "zmin": -1.5,
+        "xmax": 10.5,
+        "ymax": 8.0,
+        "zmax": 1.5,
+        "dx": 21.0,
+        "dy": 16.0,
+        "dz": 3.0
+      },
+      "step": "export/step/imu_mpu6050.step",
+      "stl": "export/stl/imu_mpu6050.stl"
+    },
+    {
+      "file": "camera_module",
+      "title": "Camera",
+      "kind": "purchased",
+      "material": "CSI camera",
+      "qty": 1,
+      "unit_cost_usd": 9.0,
+      "note": "8 mm class lens, behind the hood.",
+      "volume_mm3": 1554.1,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -12.0,
+        "ymin": -12.0,
+        "zmin": -0.0,
+        "xmax": 12.0,
+        "ymax": 12.0,
+        "zmax": 10.01,
+        "dx": 24.0,
+        "dy": 24.0,
+        "dz": 10.01
+      },
+      "step": "export/step/camera_module.step",
+      "stl": "export/stl/camera_module.stl"
+    },
+    {
+      "file": "sensor_hcsr04",
+      "title": "Ultrasonic",
+      "kind": "purchased",
+      "material": "HC-SR04",
+      "qty": 1,
+      "unit_cost_usd": 2.0,
+      "note": "Crop-height / obstacle ping. Optional on tall grass.",
+      "volume_mm3": 6265.5,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -22.5,
+        "ymin": -21.014,
+        "zmin": -0.0,
+        "xmax": 22.5,
+        "ymax": 21.014,
+        "zmax": 13.618,
+        "dx": 45.0,
+        "dy": 42.027,
+        "dz": 13.618
+      },
+      "step": "export/step/sensor_hcsr04.step",
+      "stl": "export/stl/sensor_hcsr04.stl"
+    },
+    {
+      "file": "switch_rocker",
+      "title": "Power switch",
+      "kind": "purchased",
+      "material": "rocker",
+      "qty": 1,
+      "unit_cost_usd": 1.5,
+      "note": "Pack disconnect on the rear panel.",
+      "volume_mm3": 2744.0,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -9.5,
+        "ymin": -6.5,
+        "zmin": -8.0,
+        "xmax": 9.5,
+        "ymax": 6.5,
+        "zmax": 9.0,
+        "dx": 19.0,
+        "dy": 13.0,
+        "dz": 17.0
+      },
+      "step": "export/step/switch_rocker.step",
+      "stl": "export/stl/switch_rocker.stl"
+    },
+    {
+      "file": "connector_xt30",
+      "title": "XT30",
+      "kind": "purchased",
+      "material": "XT30",
+      "qty": 1,
+      "unit_cost_usd": 1.2,
+      "note": "Panel-side pack connector.",
+      "volume_mm3": 1583.4,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -6.0,
+        "ymin": -6.011,
+        "zmin": -0.015,
+        "xmax": 6.015,
+        "ymax": 6.011,
+        "zmax": 14.015,
+        "dx": 12.015,
+        "dy": 12.022,
+        "dz": 14.029
+      },
+      "step": "export/step/connector_xt30.step",
+      "stl": "export/stl/connector_xt30.stl"
+    },
+    {
+      "file": "fastener_m3x8",
+      "title": "M3\u00d78 SHCS",
+      "kind": "purchased",
+      "material": "steel",
+      "qty": 24,
+      "unit_cost_usd": 0.05,
+      "note": "Horn pinch screws and clips.",
+      "volume_mm3": 120.8,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -2.75,
+        "ymin": -2.755,
+        "zmin": -8.004,
+        "xmax": 2.757,
+        "ymax": 2.755,
+        "zmax": 3.007,
+        "dx": 5.507,
+        "dy": 5.51,
+        "dz": 11.01
+      },
+      "step": "export/step/fastener_m3x8.step",
+      "stl": "export/stl/fastener_m3x8.stl"
+    },
+    {
+      "file": "fastener_m3x12",
+      "title": "M3\u00d712 SHCS",
+      "kind": "purchased",
+      "material": "steel",
+      "qty": 40,
+      "unit_cost_usd": 0.06,
+      "note": "Deck, bezels, cradles, flanges.",
+      "volume_mm3": 149.1,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -2.75,
+        "ymin": -2.755,
+        "zmin": -12.004,
+        "xmax": 2.757,
+        "ymax": 2.755,
+        "zmax": 3.007,
+        "dx": 5.507,
+        "dy": 5.51,
+        "dz": 15.01
+      },
+      "step": "export/step/fastener_m3x12.step",
+      "stl": "export/stl/fastener_m3x12.stl"
+    },
+    {
+      "file": "fastener_m3x16",
+      "title": "M3\u00d716 SHCS",
+      "kind": "purchased",
+      "material": "steel",
+      "qty": 16,
+      "unit_cost_usd": 0.07,
+      "note": "Flange stacks that include a horn.",
+      "volume_mm3": 177.3,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -2.75,
+        "ymin": -2.755,
+        "zmin": -16.004,
+        "xmax": 2.757,
+        "ymax": 2.755,
+        "zmax": 3.007,
+        "dx": 5.507,
+        "dy": 5.51,
+        "dz": 19.01
+      },
+      "step": "export/step/fastener_m3x16.step",
+      "stl": "export/stl/fastener_m3x16.stl"
+    },
+    {
+      "file": "nut_m3",
+      "title": "M3 nyloc nut",
+      "kind": "purchased",
+      "material": "nyloc",
+      "qty": 64,
+      "unit_cost_usd": 0.04,
+      "note": "Nyloc, inside the shell where a boss is not used.",
+      "volume_mm3": 62.9,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -3.175,
+        "ymin": -2.75,
+        "zmin": -0.0,
+        "xmax": 3.175,
+        "ymax": 2.75,
+        "zmax": 2.4,
+        "dx": 6.35,
+        "dy": 5.499,
+        "dz": 2.4
+      },
+      "step": "export/step/nut_m3.step",
+      "stl": "export/stl/nut_m3.stl"
+    },
+    {
+      "file": "washer_m3",
+      "title": "M3 washer",
+      "kind": "purchased",
+      "material": "steel",
+      "qty": 32,
+      "unit_cost_usd": 0.02,
+      "note": "Under screw heads on plastic.",
+      "volume_mm3": 14.7,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -3.5,
+        "ymin": -3.506,
+        "zmin": -0.009,
+        "xmax": 3.509,
+        "ymax": 3.506,
+        "zmax": 0.509,
+        "dx": 7.009,
+        "dy": 7.013,
+        "dz": 0.517
+      },
+      "step": "export/step/washer_m3.step",
+      "stl": "export/stl/washer_m3.stl"
+    },
+    {
+      "file": "heatset_m3",
+      "title": "M3 heat-set insert",
+      "kind": "purchased",
+      "material": "brass",
+      "qty": 10,
+      "unit_cost_usd": 0.08,
+      "note": "Six deck bosses plus four yaw-clamp ears.",
+      "volume_mm3": 46.8,
+      "mass_g": null,
+      "bbox": {
+        "xmin": -2.3,
+        "ymin": -2.304,
+        "zmin": -0.006,
+        "xmax": 2.306,
+        "ymax": 2.304,
+        "zmax": 4.006,
+        "dx": 4.606,
+        "dy": 4.608,
+        "dz": 4.011
+      },
+      "step": "export/step/heatset_m3.step",
+      "stl": "export/stl/heatset_m3.stl"
+    }
+  ],
+  "assembly": [
+    {
+      "instance": "chassis_tub",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "top_deck",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          127.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "belly_hatch",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          80.8
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "front_bezel",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          98.6
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "rear_panel",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -98.6
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "camera_hood",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          108.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          114.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "battery",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -28.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          98.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "pi",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          48.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          96.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "driver",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          98.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "ubec",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -10.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          32.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          96.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "imu",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -20.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          131.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "camera",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          114.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "ultrasonic",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          102.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          106.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "switch",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -102.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -18.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          106.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "xt30",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -104.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          16.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          102.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "battery_strap_a",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -28.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -20.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          112.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "battery_strap_b",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -28.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          112.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "cradle_FL",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          66.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "coxa_FL",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          58.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          66.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "femur_FL",
+      "matrix": [
+        [
+          0.47258,
+          0.0,
+          0.88129,
+          58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          118.0
+        ],
+        [
+          -0.88129,
+          0.0,
+          0.47258,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "tibia_FL",
+      "matrix": [
+        [
+          0.69674,
+          0.0,
+          -0.71733,
+          -3.69012
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          118.0
+        ],
+        [
+          0.71733,
+          0.0,
+          0.69674,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "foot_FL",
+      "matrix": [
+        [
+          0.69674,
+          0.0,
+          -0.71733,
+          58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          118.0
+        ],
+        [
+          0.71733,
+          0.0,
+          0.69674,
+          11.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_abad_FL",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          58.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          66.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_hip_FL",
+      "matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          58.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          118.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_knee_FL",
+      "matrix": [
+        [
+          0.47258,
+          0.88129,
+          0.0,
+          -3.69012
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          118.0
+        ],
+        [
+          -0.88129,
+          0.47258,
+          0.0,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_abad_FL",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          64.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          66.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_hip_FL",
+      "matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          58.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          124.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_knee_FL",
+      "matrix": [
+        [
+          0.47258,
+          0.88129,
+          0.0,
+          -3.69012
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          112.0
+        ],
+        [
+          -0.88129,
+          0.47258,
+          0.0,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "cradle_FR",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "coxa_FR",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          58.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          -66.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "femur_FR",
+      "matrix": [
+        [
+          0.47258,
+          0.0,
+          0.88129,
+          58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -118.0
+        ],
+        [
+          -0.88129,
+          0.0,
+          0.47258,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "tibia_FR",
+      "matrix": [
+        [
+          0.69674,
+          0.0,
+          -0.71733,
+          -3.69012
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -118.0
+        ],
+        [
+          0.71733,
+          0.0,
+          0.69674,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "foot_FR",
+      "matrix": [
+        [
+          0.69674,
+          0.0,
+          -0.71733,
+          58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -118.0
+        ],
+        [
+          0.71733,
+          0.0,
+          0.69674,
+          11.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_abad_FR",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          58.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -66.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_hip_FR",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          58.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -118.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_knee_FR",
+      "matrix": [
+        [
+          0.47258,
+          -0.88129,
+          0.0,
+          -3.69012
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -118.0
+        ],
+        [
+          -0.88129,
+          -0.47258,
+          0.0,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_abad_FR",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          64.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -66.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_hip_FR",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          58.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -124.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_knee_FR",
+      "matrix": [
+        [
+          0.47258,
+          -0.88129,
+          0.0,
+          -3.69012
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -112.0
+        ],
+        [
+          -0.88129,
+          -0.47258,
+          0.0,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "cradle_RL",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          66.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "coxa_RL",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -58.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          66.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "femur_RL",
+      "matrix": [
+        [
+          0.47258,
+          0.0,
+          0.88129,
+          -58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          118.0
+        ],
+        [
+          -0.88129,
+          0.0,
+          0.47258,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "tibia_RL",
+      "matrix": [
+        [
+          0.69674,
+          0.0,
+          -0.71733,
+          -119.69012
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          118.0
+        ],
+        [
+          0.71733,
+          0.0,
+          0.69674,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "foot_RL",
+      "matrix": [
+        [
+          0.69674,
+          0.0,
+          -0.71733,
+          -58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          118.0
+        ],
+        [
+          0.71733,
+          0.0,
+          0.69674,
+          11.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_abad_RL",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          -58.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          66.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_hip_RL",
+      "matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -58.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          118.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_knee_RL",
+      "matrix": [
+        [
+          0.47258,
+          0.88129,
+          0.0,
+          -119.69012
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          118.0
+        ],
+        [
+          -0.88129,
+          0.47258,
+          0.0,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_abad_RL",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          -52.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          66.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_hip_RL",
+      "matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -58.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          124.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_knee_RL",
+      "matrix": [
+        [
+          0.47258,
+          0.88129,
+          0.0,
+          -119.69012
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          112.0
+        ],
+        [
+          -0.88129,
+          0.47258,
+          0.0,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "cradle_RR",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "coxa_RR",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -58.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          -66.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "femur_RR",
+      "matrix": [
+        [
+          0.47258,
+          0.0,
+          0.88129,
+          -58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -118.0
+        ],
+        [
+          -0.88129,
+          0.0,
+          0.47258,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "tibia_RR",
+      "matrix": [
+        [
+          0.69674,
+          0.0,
+          -0.71733,
+          -119.69012
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -118.0
+        ],
+        [
+          0.71733,
+          0.0,
+          0.69674,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "foot_RR",
+      "matrix": [
+        [
+          0.69674,
+          0.0,
+          -0.71733,
+          -58.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -118.0
+        ],
+        [
+          0.71733,
+          0.0,
+          0.69674,
+          11.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_abad_RR",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          -58.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -66.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_hip_RR",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -58.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -118.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_knee_RR",
+      "matrix": [
+        [
+          0.47258,
+          -0.88129,
+          0.0,
+          -119.69012
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -118.0
+        ],
+        [
+          -0.88129,
+          -0.47258,
+          0.0,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_abad_RR",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          -52.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -66.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_hip_RR",
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -58.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -124.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_knee_RR",
+      "matrix": [
+        [
+          0.47258,
+          -0.88129,
+          0.0,
+          -119.69012
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -112.0
+        ],
+        [
+          -0.88129,
+          -0.47258,
+          0.0,
+          70.91935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "arm_yaw_housing",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          42.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          129.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "shoulder_bracket",
+      "matrix": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          42.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          129.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "humerus",
+      "matrix": [
+        [
+          -0.42262,
+          0.0,
+          -0.90631,
+          42.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.90631,
+          0.0,
+          -0.42262,
+          161.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "forearm",
+      "matrix": [
+        [
+          0.98481,
+          0.0,
+          0.17365,
+          3.96436
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.17365,
+          0.0,
+          0.98481,
+          242.5677
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "wrist_hub",
+      "matrix": [
+        [
+          0.98481,
+          0.0,
+          0.17365,
+          86.68821
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.17365,
+          0.0,
+          0.98481,
+          227.98125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "gripper_palm",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          86.68821
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          227.98125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "finger_left",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          86.68821
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          9.0
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          205.98125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "finger_right",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          86.68821
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -9.0
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          205.98125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_yaw",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          42.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          129.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_shoulder",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          -0.0,
+          42.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          161.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_elbow",
+      "matrix": [
+        [
+          -0.90631,
+          0.42262,
+          -0.0,
+          3.96436
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -0.42262,
+          -0.90631,
+          -0.0,
+          242.5677
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_wrist",
+      "matrix": [
+        [
+          0.98481,
+          -0.17365,
+          0.0,
+          86.68821
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.17365,
+          -0.98481,
+          0.0,
+          227.98125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "servo_grip",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          94.68821
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          219.98125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_yaw",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          42.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          133.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_shoulder",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          42.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0,
+          6.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          161.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "horn_elbow",
+      "matrix": [
+        [
+          -0.90631,
+          -0.42262,
+          0.0,
+          3.96436
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.0
+        ],
+        [
+          -0.42262,
+          0.90631,
+          0.0,
+          242.5677
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "gripper_link_0",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          92.68821
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -18.0
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          217.98125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "gripper_link_1",
+      "matrix": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          92.68821
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          18.0
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          217.98125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "deck_screw_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          89.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          43.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          132.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "deck_screw_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          89.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -43.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          132.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "deck_screw_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -89.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          43.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          132.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance": "deck_screw_3",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -89.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -43.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          132.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "assembly_bbox": {
+    "xmin": -141.263,
+    "ymin": -154.003,
+    "zmin": -2.918,
+    "xmax": 124.5,
+    "ymax": 154.003,
+    "zmax": 263.041,
+    "dx": 265.763,
+    "dy": 308.006,
+    "dz": 265.959
+  },
+  "instance_count": 83
+}

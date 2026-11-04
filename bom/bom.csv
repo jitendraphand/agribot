@@ -1,0 +1,48 @@
+part,title,qty,kind,material,unit_mass_g,unit_cost_usd,ext_cost_usd,note
+chassis_tub,Main structural tub,1,printed,PETG,192.68,4.24,4.24,"Print open-side up. 4 perimeters, 30% gyroid."
+top_deck,Top deck and arm plinth,1,printed,PETG,79.18,1.74,1.74,Print plinth up. No supports.
+belly_hatch,Battery service hatch,1,printed,PETG,21.58,0.47,0.47,Print plug down.
+front_bezel,Camera and ultrasonic bezel,1,printed,PETG,18.35,0.4,0.4,Print flat.
+rear_panel,"Switch, XT30, USB panel",1,printed,PETG,15.28,0.34,0.34,Print flat.
+camera_hood,Sun hood for the lens,1,printed,PETG,3.12,0.07,0.07,Print upright.
+hip_cradle_left,"Abduction servo cradle, left",2,printed,PETG,29.82,0.66,1.31,Print flange down. FL and RL share this part.
+hip_cradle_right,"Abduction servo cradle, right",2,printed,PETG,29.82,0.66,1.31,Mirror of the left cradle. FR and RR.
+coxa_left,"Coxa link, left",2,printed,PETG,21.03,0.46,0.93,Print proximal flange down. Light supports under the arch.
+coxa_right,"Coxa link, right",2,printed,PETG,21.03,0.46,0.93,Mirror of the left coxa.
+femur_left,"Femur, left",2,printed,PETG,18.95,0.42,0.83,Print spar down.
+femur_right,"Femur, right",2,printed,PETG,18.95,0.42,0.83,Mirror of the left femur.
+tibia_left,"Tibia, left",2,printed,PETG,18.71,0.41,0.82,"Print spar down, tenon up."
+tibia_right,"Tibia, right",2,printed,PETG,18.71,0.41,0.82,Mirror of the left tibia.
+foot,Spherical tread foot,4,printed,TPU,5.49,0.18,0.7,"TPU 95A. 3 perimeters, 20% infill. Ball down if the slicer allows."
+horn_clamp,25T clamping horn,15,printed,PETG,3.71,0.08,1.22,Print flange down. 100% infill. Ream the bore to 6.1 only if the spline is tight — bore is modelled 6.1 mm.
+arm_yaw_housing,Under-deck yaw clamp,1,printed,PETG,7.91,0.17,0.17,Print ring down.
+shoulder_bracket,Shoulder upright,1,printed,PETG,10.15,0.22,0.22,Print base down.
+humerus,Upper arm,1,printed,PETG,22.85,0.5,0.5,Print spar down.
+forearm,Forearm,1,printed,PETG,16.98,0.37,0.37,Print spar down.
+wrist_hub,Wrist adapter,1,printed,PETG,4.32,0.1,0.1,Print flat.
+gripper_palm,Gripper palm,1,printed,PETG,20.19,0.44,0.44,Print pocket up.
+finger_left,"Gripper finger, left",1,printed,PETG,3.45,0.08,0.08,Print on the outer face.
+finger_right,"Gripper finger, right",1,printed,PETG,3.45,0.08,0.08,Print on the outer face.
+gripper_link,Gripper tie rod,2,printed,PETG,0.61,0.01,0.03,Print flat. 100% infill.
+cable_clip,Cable clip,8,printed,PETG,0.55,0.01,0.1,Print flat.
+battery_strap,Battery strap,2,printed,PETG,1.14,0.03,0.05,Print flat.
+servo_ds3225,Standard digital servo,15,purchased,DS3225 class,,14.5,217.5,"IP-rated 25 kg·cm standard servo, 180° or 270° programmable. 12 leg + yaw + shoulder + elbow."
+servo_mg90s,Micro servo,2,purchased,MG90S class,,4.25,8.5,Wrist and gripper.
+battery_3s2200,Flight pack,1,purchased,LiPo 3S,,24.0,24.0,"2200 mAh ≥30C, XT30. Charge outside the robot."
+board_pi_zero2,Computer,1,purchased,Pi Zero 2 W,,18.0,18.0,Or any 65×30 class SBC. USB gadget for bench bring-up.
+board_pca9685,Servo driver,1,purchased,PCA9685,,6.5,6.5,"16-channel servo PWM. Logic 5 V from the UBEC, servos on the pack."
+ubec_5v,Regulator,1,purchased,5V 5A UBEC,,8.0,8.0,Logic rail only. Servo current does not pass through it.
+imu_mpu6050,IMU,1,purchased,MPU-6050,,3.5,3.5,"Mount on the deck centreline, connectors aft."
+camera_module,Camera,1,purchased,CSI camera,,9.0,9.0,"8 mm class lens, behind the hood."
+sensor_hcsr04,Ultrasonic,1,purchased,HC-SR04,,2.0,2.0,Crop-height / obstacle ping. Optional on tall grass.
+switch_rocker,Power switch,1,purchased,rocker,,1.5,1.5,Pack disconnect on the rear panel.
+connector_xt30,XT30,1,purchased,XT30,,1.2,1.2,Panel-side pack connector.
+fastener_m3x8,M3×8 SHCS,24,purchased,steel,,0.05,1.2,Horn pinch screws and clips.
+fastener_m3x12,M3×12 SHCS,40,purchased,steel,,0.06,2.4,"Deck, bezels, cradles, flanges."
+fastener_m3x16,M3×16 SHCS,16,purchased,steel,,0.07,1.12,Flange stacks that include a horn.
+nut_m3,M3 nyloc nut,64,purchased,nyloc,,0.04,2.56,"Nyloc, inside the shell where a boss is not used."
+washer_m3,M3 washer,32,purchased,steel,,0.02,0.64,Under screw heads on plastic.
+heatset_m3,M3 heat-set insert,10,purchased,brass,,0.08,0.8,Six deck bosses plus four yaw-clamp ears.
+wire_22awg,Silicone servo wire,1,consumable,"22 AWG, 3 m",,6.0,6.0,Power and signal loom
+fuse_30a,Inline fuse 30 A,1,consumable,ATO / midi,,1.5,1.5,"On the pack lead, before the servo rail"
+ferrule_xt30,XT30 pigtail,1,consumable,silicone,,2.0,2.0,Matches the panel connector

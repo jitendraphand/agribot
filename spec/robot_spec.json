@@ -1,0 +1,75 @@
+{
+  "BODY_L": 200.0,
+  "BODY_W": 108.0,
+  "BODY_H": 44.0,
+  "WALL": 3.0,
+  "FLOOR": 3.2,
+  "DECK_T": 3.0,
+  "HIP_X": 58.0,
+  "HIP_Y": 66.0,
+  "HIP_Z": 0.0,
+  "COXA": 52.0,
+  "FEMUR": 70.0,
+  "TIBIA": 86.0,
+  "FOOT_R": 11.0,
+  "BODY_STAND_Z": 104.0,
+  "SERVO_L": 40.4,
+  "SERVO_W": 20.0,
+  "SERVO_H": 36.0,
+  "MICRO_L": 22.8,
+  "MICRO_W": 12.2,
+  "MICRO_H": 23.0,
+  "ARM_X": 42.0,
+  "ARM_Y": 0.0,
+  "ARM_Z": 25.0,
+  "YAW_TO_SHOULDER": 32.0,
+  "HUMERUS": 90.0,
+  "FOREARM": 84.0,
+  "TOOL": 58.0,
+  "GRIP_HORN_R": 10.0,
+  "GRIP_LINK": 21.0,
+  "GRIP_CRANK": 13.0,
+  "GRIP_CRANK_OFFSET_DEG": 120.0,
+  "GRIP_PIVOT_X": 22.0,
+  "GRIP_PIVOT_Y": 9.0,
+  "GRIP_FINGER_LEN": 36.0,
+  "GRIP_FINGER_T": 7.0,
+  "GRIP_CLOSED_SERVO_DEG": 0.0,
+  "GRIP_OPEN_SERVO_DEG": -35.0,
+  "GAIT_PERIOD": 0.55,
+  "GAIT_STEP": 36.0,
+  "GAIT_SWING_H": 22.0,
+  "GAIT_DUTY": 0.5,
+  "SERVO_TRAVEL_DEG": 160.0,
+  "ABAD_LIM": [
+    -28.0,
+    28.0
+  ],
+  "HIP_LIM": [
+    -40.0,
+    100.0
+  ],
+  "KNEE_LIM": [
+    -150.0,
+    -25.0
+  ],
+  "YAW_LIM": [
+    -100.0,
+    100.0
+  ],
+  "SHOULDER_LIM": [
+    -40.0,
+    130.0
+  ],
+  "ELBOW_LIM": [
+    -150.0,
+    20.0
+  ],
+  "WRIST_LIM": [
+    -110.0,
+    110.0
+  ],
+  "stance_y": 118.0,
+  "track_width": 236.0,
+  "hip_spacing_x": 116.0
+}
